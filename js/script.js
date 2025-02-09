@@ -35,3 +35,8 @@ geminiAgent.on('turn_complete', () => {
 geminiAgent.connect();
 
 setupEventListeners(geminiAgent);
+
+// Remove or comment out any duplicate disconnect handler
+// document.getElementById('disconnectBtn').addEventListener('click', () => {
+//     console.log('Disconnect clicked');
+// });
