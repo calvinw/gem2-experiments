@@ -3,9 +3,9 @@ The following was taken from original project here: [gemini-2-live-api-demo](htt
 We have simiplified the code considerably removing the tools and the
 transcribers for now.
 
-See our github pages version here:
+## Demo Version
 
-#### [gem2-experiments](https://calvinw.github.io/gem2-experiments/)
+### Our github pages version [here](https://calvinw.github.io/gem2-experiments/)
 
 First you must put in your Gemini API key in the settings.
 
