@@ -2,7 +2,7 @@ The following was taken from original project here:
 
 [gemini-2-live-api-demo](https://github.com/viaanthroposbenevolentia/gemini-2-live-api-demo/)
 
-We have simiplified the code considerably removing the agents and the
+We have simiplified the code considerably removing the tools and the
 transcribers for now.
 
 See the github pages version:
