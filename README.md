@@ -33,12 +33,12 @@ Once you pick the LLM response modality you can begin input prompting.
 
 You can turn these on optionally:
 
-1) Webcam - here you will activate a webcam that should appear in preview above the chat window 
-
-2) ScreenShare - you can choose to share a window or tab with the model.
-
-3) Mic - here you will be able to speak audio and the model will hear that. 
+1) Mic - here you will be able to speak audio and the model will hear that. 
 The audio will not be printed as text in the chat window though.
+
+2) Webcam - here you will activate a webcam that should appear in preview above the chat window 
+
+3) ScreenShare - you can choose to share a window or tab with the model.
 
 When you have Webcam and Screenshare at the same time, the model will sometimes get confused since it recieves everything as just an image. So you might have to distinguish the images sometimes when you refer to them
 
