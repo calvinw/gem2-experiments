@@ -1,13 +1,11 @@
-The following was taken from original project here:
-
-[gemini-2-live-api-demo](https://github.com/viaanthroposbenevolentia/gemini-2-live-api-demo/)
+The following was taken from original project here: [gemini-2-live-api-demo](https://github.com/viaanthroposbenevolentia/gemini-2-live-api-demo/)
 
 We have simiplified the code considerably removing the tools and the
 transcribers for now.
 
-See the github pages version:
+See our github pages version here:
 
-[gem2-experiments](https://calvinw.github.io/gem2-experiments/)
+#### [gem2-experiments](https://calvinw.github.io/gem2-experiments/)
 
 First you must put in your Gemini API key in the settings.
 
