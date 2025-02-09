@@ -1,15 +1,47 @@
-The following is the original code this was taken from:
+The following was taken from original project here:
 
-We have simiplified the code from here:
 [gemini-2-live-api-demo](https://github.com/viaanthroposbenevolentia/gemini-2-live-api-demo/)
 
-See the demo 
-[Demo](https://calvinw.github.io/gem2-experiments/)
+We have simiplified the code considerably removing the agents and the
+transcribers for now.
 
-You must put in your Gemini API key in the settings.
+See the github pages version:
 
-You can choose Text or Audio as the ResponseModality.
+[gem2-experiments](https://calvinw.github.io/gem2-experiments/)
 
+First you must put in your Gemini API key in the settings.
 
+There also you pick the output modality (Response Modality) of the model:
+You can choose either Text or Audio.
+
+## Outputs 
+
+### Response Modality (Text or Audio) - How the Model Responds
+
+If you choose Text all responses from the LLM will be in text and will go in the chat window as text.
+
+If you choose Audio all responses from the LLM will be in audio and they will not be printed in the chat window.
+
+The model only uses one response modality at the moment (Text or Audio but not
+both)
+
+Once you pick the LLM response modality you can begin input prompting.
+
+## Inputs 
+
+### Prompting Modalities (Webcam, Screenshare, Mic) - What You Send 
+
+You can turn these on optionally:
+
+1) Webcam - here you will activate a webcam that should appear in preview above the chat window 
+
+2) ScreenShare - you can choose to share a window or tab with the model.
+
+3) Mic - here you will be able to speak audio and the model will hear that. 
+The audio will not be printed as text in the chat window though.
+
+When you have Webcam and Screenshare at the same time, the model will sometimes get confused since it recieves everything as just an image. So you might have to distinguish the images sometimes when you refer to them
+
+It is possible to hvae 
 
 
