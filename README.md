@@ -27,6 +27,9 @@ both)
 
 Once you pick the LLM response modality you can begin input prompting.
 
+Note:  
+- Changing the response modality currently resets the chat completely and turns off any prompting modalities you are using.
+
 ## Inputs 
 
 ### Prompting Modalities (Webcam, Screenshare, Mic) - What You Send 
@@ -41,7 +44,4 @@ The audio will not be printed as text in the chat window though.
 3) ScreenShare - you can choose to share a window or tab with the model.
 
 When you have Webcam and Screenshare at the same time, the model will sometimes get confused since it recieves everything as just an image. So you might have to distinguish the images sometimes when you refer to them
-
-It is possible to hvae 
-
 
