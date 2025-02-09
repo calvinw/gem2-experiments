@@ -5,8 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gemini Live</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .preview-area {
+            display: flex;
+            justify-content: flex-start; /* Align items to the start (left) */
+            align-items: center; /* Vertically center items */
+            width: 100%;
+            height: 200px; /* Adjust as needed */
+            background-color: #f0f0f0; /* Optional background color */
+            padding: 10px;
+            box-sizing: border-box; /* Include padding in width/height */
+        }
+
+        .camera-preview {
+            position: relative; /* Changed from absolute */
+            bottom: auto; /* Remove bottom positioning */
+            left: auto; /* Remove left positioning */
+            width: 240px; /* Default width */
+            height: 180px;
+            background-color: var(--button-bg);
+            border: 1px solid var(--accent-color);
+            border-radius: 8px;
+            overflow: hidden;
+            z-index: 2;
+            display: none; /* Hidden by default */
+            margin-right: 10px; /* Add some spacing between previews */
+        }
+
+        .screen-preview {
+            position: relative; /* Changed from absolute */
+            bottom: auto; /* Remove bottom positioning */
+            left: auto; /* Remove left positioning */
+            width: 240px;
+            height: 135px; /* 16:9 aspect ratio */
+            background-color: var(--button-bg);
+            border: 1px solid var(--accent-color);
+            border-radius: 8px;
+            overflow: hidden;
+            z-index: 2;
+            display: none; /* Hidden by default */
+        }
+    </style>
 </head>
 <body>
+    <div class="preview-area">
+        <div id="cameraPreview" class="camera-preview"></div>
+        <div id="screenPreview" class="screen-preview"></div>
+    </div>
     <div class="app-container">
         <button id="disconnectBtn" class="disconnect-btn">Disconnect</button>
         <button id="connectBtn" class="connect-btn" style="display: none;">Connect</button>
@@ -22,8 +67,6 @@
         </button>
         <div id="chatHistory" class="chat-history"></div>
         <canvas id="visualizer" class="visualizer"></canvas>
-        <div id="cameraPreview" class="camera-preview"></div>
-        <div id="screenPreview" class="screen-preview"></div>
         <div class="text-input-container">
             <input type="text" id="messageInput" placeholder="Type your message..." class="text-input">
             <button id="sendBtn" class="send-btn">➤</button>
